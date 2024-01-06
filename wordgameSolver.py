@@ -72,7 +72,7 @@ def spellingBee():
     action = input(BEE_MENU)
     inputList = list(set(action.split(",")))
     middleLetter = input("What is the middle Letter?: ")
-    wordsLeft = pruneDictionary(inputList, english_words, middleLetter)
+    pruneDictionary(inputList, english_words, middleLetter)
     print(english_words.keys())
     print(len(english_words))
     
