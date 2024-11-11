@@ -87,7 +87,7 @@ def scrabbleCheck():
         print("\n\t****************\n\t RESULT: \n\t Word Does Not Exist \n\t****************\n")
 
 def wordCookies():
-    print("wordCookies")
+    print("wordCookies Not implemented yet")
 
 if __name__ == '__main__':
     while True:
